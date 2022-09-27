@@ -1,11 +1,11 @@
 {
-    "name": "calculator",
-    "description": "Simple calculator for entry sizes",
+    "name": "riptide-web",
+    "description": "Web for animation project",
     "version": "0.0.1",
     "scripts": {
         "dev": "sapper dev",
         "build": "sapper build --legacy",
-        "export": "sapper export --legacy",
+        "export": "sapper --basepath riptide-web export --legacy",
         "start": "node __sapper__/build",
         "validate": "svelte-check --ignore src/node_modules/@sapper"
     },
