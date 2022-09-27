@@ -12,6 +12,7 @@ const dev = NODE_ENV === "development";
 
 express()
 	.use(
+		'riptide-web',
 		compression({ threshold: 0 }),
 		sirv("static", { dev }),
 		sapper.middleware()
