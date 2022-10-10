@@ -17,6 +17,7 @@
 section {
   height: 100%;
   width: 100%;
+  background-color: rgb(4, 4, 4);
 }
 </style>
 
