@@ -40,6 +40,8 @@ section {
   width: 100%;
   background-color: rgb(4, 4, 4);
   color: white;
+  text-align: justify;
+  text-justify: inter-word;
 }
 </style>
 
@@ -58,8 +60,11 @@ section {
 			<iframe title="Spotify" style="border-radius:12px" src="https://open.spotify.com/embed/track/3JvrhDOgAt6p7K8mDyZwRd?utm_source=generator&theme=0" height="38%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 		</section> 
 		
-		<section style="background-color: rgb(10, 10, 10)" id="essay" class="center">
-			<h1>TODO</h1>
+		<section style="background-color: rgb(10, 10, 10); width: 100%" id="essay" class="center">
+			<div>
+				<h1 style="margin-left: 1.5rem; margin-right: 1.5rem;">Ensayo</h1>
+				<p style="margin-top: 1.5rem; margin-left: 1.5rem; margin-right: 1.5rem;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</div>
 		</section>
 		
 		<section id="extra" class="center">
