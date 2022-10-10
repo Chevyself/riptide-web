@@ -14,10 +14,32 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#footer {
+  background-color: rgb(28, 28, 28);
+  height: 3rem;
+  a {
+	text-decoration: none;
+	color: white;
+  }
+  a:hover {
+	color: rgb(220, 220, 220);
+  }
+  .extra {
+    width: 50%;
+	float: left;
+	padding: 0.4rem;
+  }
+  .gh-pages {
+	width: 50%;
+	float: right;
+  }
+}
 section {
   height: 100%;
   width: 100%;
   background-color: rgb(4, 4, 4);
+  color: white;
 }
 </style>
 
@@ -25,14 +47,32 @@ section {
 	<title>Riptide</title>
 </svelte:head>
 
-<div style="background-image: url('bg.gif'); position: absolute;" id="bg">
-	<section style="background:transparent;" id="landing">
+<div>
+	<div style="background-image: url('bg.gif'); position: absolute;" id="bg">
+		<section style="background:transparent;" id="landing">
 
-	</section>
+		</section>
 
-	<section id="track" class="center">
-		<!-- Embed Spotify track -->
-		<iframe title="Spotify" style="border-radius:12px" src="https://open.spotify.com/embed/track/3JvrhDOgAt6p7K8mDyZwRd?utm_source=generator&theme=0" height="38%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-	</section> 
+		<section id="track" class="center">
+			<!-- Embed Spotify track -->
+			<iframe title="Spotify" style="border-radius:12px" src="https://open.spotify.com/embed/track/3JvrhDOgAt6p7K8mDyZwRd?utm_source=generator&theme=0" height="38%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+		</section> 
+		
+		<section style="background-color: rgb(10, 10, 10)" id="essay" class="center">
+			<h1>TODO</h1>
+		</section>
+		
+		<section id="extra" class="center">
+			<h1>TODO</h1>
+		</section>
+		
+		<section id="footer">
+			<div class="extra">
+				
+			</div>
+			<div class="gh-pages center">
+				<a href="https://github.com/Chevyself/riptide-web">Hecho con Github Pages</a>
+			</div>
+		</section>
+	</div>
 </div>
-
